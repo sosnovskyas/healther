@@ -1,0 +1,21 @@
+{
+  "name": "healther",
+  "version": "0.0.1",
+  "description": "health tracker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosnovskyas/healther.git"
+  },
+  "keywords": [
+    "health"
+  ],
+  "author": "Sosnovsky Alexey <sosnovsky.as@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sosnovskyas/healther/issues"
+  },
+  "homepage": "https://github.com/sosnovskyas/healther#readme"
+}
