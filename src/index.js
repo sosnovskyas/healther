@@ -1,2 +1,3 @@
 'use strict';
-let index = 1;
+require('./index.scss');
+
