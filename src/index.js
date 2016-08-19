@@ -1,2 +1,2 @@
 'use strict';
-let i = 1;
+let index = 1;
