@@ -1,4 +1,5 @@
 'use strict';
+require('./auth.scss');
 
 class Auth {
   constructor(options) {
