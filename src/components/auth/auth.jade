@@ -1,8 +1,9 @@
 if(displayName)
-  .auth__display-name= displayName
   if(photoURL)
-    img(src=photoURL).auth__photo-url
-  input(type='button', value='sign out').auth__sign-out
+    .auth__photo-wrapper
+      img(src=photoURL).auth__photo-url
+  .auth__display-name= displayName
+  input(type='button', value='Sign out').auth__sign-out
 else
-  input(type='button', value='login via FB').auth__sign-in
+  input(type='button', value='LogIn via FB').auth__sign-in
 

@@ -1,3 +1,19 @@
-.auth{
-  background-color: darkgray;
+.auth {
+  //background-color: darkgray;
+  &__display-name{
+    text-align: center;
+  }
+  &__photo {
+    &-wrapper {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 5px solid antiquewhite;
+    }
+
+    &-url {
+      width: 100%;
+    }
+  }
 }
