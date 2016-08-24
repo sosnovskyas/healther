@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "health tracker",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server&& ",
+    "open": "open http://localhost:8080/webpack-dev-server/",
     "deploy": "webpack && firebase deploy && firebase open hosting:site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
